@@ -46,7 +46,7 @@ table {
 }
 
 form {
-  
+
     margin: 50px;
     margin-top: 20px;
     color: rgb(7, 7, 7);
@@ -106,6 +106,7 @@ form {
     height: 30px;
 
 }
+
 footer {
     height: 100px;
 }
@@ -119,21 +120,22 @@ footer {
     display: grid;
     grid-template-rows: 15px 15px 15px;
     row-gap: 5px;
-    
+
 }
 
 .mapa {
     width: 25px;
     height: 25px;
-    }
+}
 
 @media (max-width: 480px) {
     .contenidoFooter {
         grid-template-columns: none;
         row-gap: 30px;
     }
+
     .footer {
-     height: auto;
+        height: auto;
     }
 }
 
@@ -145,7 +147,7 @@ footer {
 
 .preferencias {
     display: grid;
-    grid-template-rows: 45px 45px ;
+    grid-template-rows: 45px 45px;
     column-gap: 20px;
 }
 
@@ -155,13 +157,13 @@ footer {
     column-gap: 20px;
 }
 
-legend { 
+legend {
     background-color: rgb(225, 222, 222);
     text-align: center;
     width: 90%;
 }
 
-.tituloMañana { 
+.tituloMañana {
     margin: 10px;
 }
 
