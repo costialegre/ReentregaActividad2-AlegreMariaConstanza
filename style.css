@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.nav {
+    width: 100%;
+}
+
+.container {
+    font-family: 'Itim', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloHome {
+    background-color: rgb(204, 201, 201);
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+.descripcionHome {
+    text-align: center;
+}
+
+
+table {
+    color: rgb(14, 13, 13);
+}
+
+
+#fotodesafiohome {
+    padding: 20px;
+}
+
+#fotogrupo {
+    padding: 20px;
+}
+
+.video {
+    margin: 20px;
+    width: 100%;
+}
+
+form {
+  
+    margin: 50px;
+    margin-top: 20px;
+    color: rgb(7, 7, 7);
+}
+
+
+.novedades1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    left: 20px;
+    color: rgb(9, 9, 9);
+
+}
+
+.footer {
+    background-color: rgb(209, 206, 206);
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contenidoFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.tituloRedes {
+    margin-bottom: 0;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    row-gap: 5px;
+    margin-left: 50px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.Facebook {
+    width: 30px;
+    height: 30px;
+}
+
+.Twitter {
+    width: 30px;
+    height: 30px;
+
+}
+footer {
+    height: 100px;
+}
+
+.contenidoFooter {
+    font-size: x-small;
+    padding-top: 10px;
+}
+
+.direccion {
+    display: grid;
+    grid-template-rows: 15px 15px 15px;
+    row-gap: 5px;
+    
+}
+
+.mapa {
+    width: 25px;
+    height: 25px;
+    }
+
+@media (max-width: 480px) {
+    .contenidoFooter {
+        grid-template-columns: none;
+        row-gap: 30px;
+    }
+    .footer {
+     height: auto;
+    }
+}
+
+.datosPersonales {
+    display: grid;
+    grid-template-rows: 40px 45px 45px 45px 45px;
+    column-gap: 20px;
+}
+
+.preferencias {
+    display: grid;
+    grid-template-rows: 45px 45px ;
+    column-gap: 20px;
+}
+
+.informacionMedica {
+    display: grid;
+    grid-template-rows: 45px 45px 45px 45px 45px;
+    column-gap: 20px;
+}
+
+legend { 
+    background-color: rgb(225, 222, 222);
+    text-align: center;
+    width: 90%;
+}
+
+.tituloMañana { 
+    margin: 10px;
+}
+
+.tituloTarde {
+    margin: 10px;
+}
+
+.tituloFormulario {
+    background-color: rgb(204, 201, 201);
+    text-align: center;
+    font-size: x-large;
+}
